@@ -1,0 +1,36 @@
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+
+}
+
+.category {
+ position: absolute;
+ top: 20%;
+ left: 50%;
+ margin-top: -50px;
+ /* this is half the height of your div*/
+ margin-left: -100px;
+ /*this is half of width of your div*/
+ background-color: #272727;
+ border-radius: 20px;
+ border: 3px solid white;
+}
+h2{
+ padding:30px;
+}
+.type {
+ padding-left:50px;
+}
+span{
+ padding-left: 20px;
+ padding-right: 20px;
+ padding-bottom: 10px;
+ font-size: 20px;
+ cursor: pointer;
+}
+
+span:hover {
+ background-color: #000;
+}
